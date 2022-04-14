@@ -1,9 +1,9 @@
 ## Minimal Artifactory Functional Testing Framework
 
-THis framework has been repurposed form the partner-integration-tests used internally in JFrog by the Partnership Engineering team.
+This test framework has been repurposed form the partner-integration-tests used internally in JFrog by the Partnership Engineering team.
 
-NOTE: the test purpose is to test if deployment was correct and JFrog Deployment is functioning as expected and not for running  on a Production live JFrog Deployment. 
-You can use this test framework "as is" and  it is not supported by JFrog.
+**NOTE:** the test purpose is to test if deployment was correct and JFrog Deployment is functioning as expected and not for running  on a Production live JFrog Deployment. 
+You can use this test framework **"as is"** and  it is not supported by JFrog.
 
 It has the following customizations to the original partner-integration-tests :
 a) It is upgraded to run with :
@@ -40,7 +40,7 @@ Run Gradle wrapper to invoke Gradle task:
 ./gradlew <task_name>
 ```
 Test project can use environment variables to substitute values in testenv.yaml file. Check ```src/test/groovy/tests/TestSetup.groovy``` to see which variables are available. 
-
+For examples of running the artifactory tests see "To rerun a test" section below.
 
 
 ### Tasks for Artifactory platform testing
